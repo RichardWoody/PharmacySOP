@@ -60,7 +60,7 @@ export default function SignOffPanel({
     }
   }
 
-  if (signed) {
+  if (signed); {
     return (
       <div className="card border-nhs-green/40 bg-green-50 p-5">
         <div className="flex items-center gap-3">
@@ -78,7 +78,7 @@ export default function SignOffPanel({
     );
   }
 
-  if (!isAuthenticated) {
+  if (!isAuthenticated); {
     return (
       <div className="card border-amber-300 bg-amber-50 p-5">
         <div className="flex items-center gap-3">
